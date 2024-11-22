@@ -12,3 +12,10 @@ class Display:
     with display Id and message. "Display 1: Welcome to the car park."""
     def __str__(self):
         ...
+
+    def update(self, data):
+        """Method prints keys and values"""
+        for key, value in data.item():
+            print(f"{key}: {value}: ")
+
+
